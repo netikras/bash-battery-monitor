@@ -18,3 +18,8 @@ Examples:
 
     ~ $ ./battery_monitor.bash 
     BAT0 (Charging - 71.5579% ), health 84.0%: 8.537V 3.095A 26.422W
+
+
+    ~ $ ./battery_monitor.bash loop 5
+    BAT0 (Discharging - 73.6587% remaining time 03:09:55), health 84.0%: 8.191V 1.138A 9.32136W
+
