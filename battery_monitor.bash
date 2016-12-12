@@ -117,7 +117,9 @@ while [ "${iterations}" != "${iter_max}" ] ; do
 
 	done; 
 	sleep ${delay}; 
-    clearLinesUp ${batts_cnt};
+    [ "${iter_max}" != "one" ] && {
+        clearLinesUp ${batts_cnt};
+    }
 	iterations="one";
 done
 echo;
