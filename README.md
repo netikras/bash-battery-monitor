@@ -7,7 +7,7 @@ Run with parameters:
     loop [x] 
 
 to make this script loop every [x] seconds. 
-Only in loop mode on will see ETAs for charge/discharge.
+Only in loop mode one will see ETAs for charge/discharge.
 
 
 Examples:
